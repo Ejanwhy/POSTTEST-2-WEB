@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styleorder.css"></li>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <!-- <ul> -->
+        <img src="diamond.png" alt="">
+        <div class="navigation">
+            <ul>
+                <li><a href="beranda.html">Home</a></li>
+            </ul>
+            
+        </div>
+            <!-- </ul> -->
+    </nav>
+
+    <h1>Order Form</h1>
+	
+        <form>
+            <label for="text">ID User</label><br>
+            <input type="text" id="nm" name="nm"><br>
+            <br>
+            <label for="pesan">ID Server</label><br>
+            <textarea id="address" name="pesan"></textarea><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="eml" name="eml"><br>
+            <br>
+            <label for="Gender">Pilih Diamond</label><br>
+            <select id="Gender" name="Gender">
+                <option value="86">86 Diamond</option>
+                <option value="172">172 Diamond</option>
+                <option value="257">257 Diamond</option>
+                <option value="344">344 Diamond</option>
+                <option value="429">429 Diamond</option>
+                <option value="514">514 Diamond</option>
+                <option value="600">600 Diamond</option>
+                <option value="706">706 Diamond</option>
+                <option value="1050">1050 Diamond</option>
+            </select>
+            <br><br>
+            <label for="radio">Metode Pembayaran</label><br>
+            <input type="radio" id="Transfer Bank" name="radio" value="Transfer Bank">Transfer Bank<br>
+            <input type="radio" id="gopay" name="radio" value="gopay">Gopay<br>
+            <input type="radio" id="dana" name="radio" value="dana">Dana<br>
+            <br>
+            <label for="checkbox">Make sure your data is correct!</label><br>
+            <input type="checkbox" name="checkbox" id="checkbox" value="Iya, Sudah Benar">Yes, already correct<br>
+            <br>
+            <!-- <button>Book</button> -->
+            <a class="btn" onclick="simpan()" href="borang.html">Submit</a>
+        </form>
+
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="about.html">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Copyright © All Right 2024</p>
+        </footer>
+</body>
+<script src="../js/order.js"></script>
+</html>
